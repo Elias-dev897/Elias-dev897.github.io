@@ -1,9 +1,8 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portal de Professores - IFCE</title>
     <style>
       /* Fundo da página */
       body {
@@ -107,33 +106,7 @@
         );
       }
     </style>
-    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.min.js"></script>
-
-    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
   </head>
-  <body>
-    <header class="ifce-header">
-      <h1>Portal de Docentes | IFCE</h1>
-    </header>
-
-    <main class="container">
-      <div id="lista-alunos">
-        <p class="loading">Carregando dados dos professores...</p>
-      </div>
-    </main>
-
-    <script id="aluno-template" type="text/x-handlebars-template">
-      {{#each this}}
-        <div>
-          <h2>{{nomeSobrenome}}</h2>
-          <p>email: {{email}}</p>
-          <p>curso: {{curso}}</p>
-          <p>interesses:{{interesses}}</p>
-          <hr />
-        </div>
-      {{/each}}
-    </script>
-
-    <script src="app.js"></script>
-  </body>
+  <body></body>
 </html>
