@@ -9,7 +9,7 @@ const compilarTemplate = Handlebars.compile(templateSource);
 async function carregarAlunos() {
   try {
     // Faz a requisição HTTP GET para o JSON Server
-    const resposta = await fetch("http://localhost:3000/alunos");
+    const resposta = await fetch("http://my-json-server.typicode.com/Elias-dev897/Elias-dev897.github.io/alunos");
 
     if (!resposta.ok) {
       throw new Error("Erro ao buscar dados do servidor.");
